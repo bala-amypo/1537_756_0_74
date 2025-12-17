@@ -5,7 +5,9 @@ import java.util.List;
 
 import com.example.demo.entity.LocationEntity;
 import com.example.demo.repositry.LocationRepository;
+import org.springframework.stereotype.Service;
 
+@Service
 public class LocationServiceImpl implements LocationService {
     @Autowired 
     LocationRepository Locationrepo;
